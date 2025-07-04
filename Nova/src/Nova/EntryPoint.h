@@ -6,7 +6,6 @@ extern Nova::Application* Nova::CreateApplication();
 
 int main(int argc,char** argv) 
 {
-	printf("Nova Engine\n");
 	auto app = Nova::CreateApplication();
 	app->Run();
 	delete app;
